@@ -1,12 +1,11 @@
 {
-  "name": "project-test",
+  "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --open",
+    "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx --fix",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -14,12 +13,10 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@trybe/eslint-config-frontend": "^1.11.4",
-    "@types/react": "^18.2.15",
-    "@types/react-dom": "^18.2.7",
-    "@vitejs/plugin-react": "^4.0.3",
-    "eslint": "^8.45.0",
-    "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0-beta.1"
   }
 }
